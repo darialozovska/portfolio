@@ -628,6 +628,11 @@ body {
     margin-top: 10px;
 }
 
+.footer-tablet {
+    display: flex;
+    flex-direction: row;
+}
+
 /* MEDIA */
 
 /* TABLET */

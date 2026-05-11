@@ -627,3 +627,371 @@ body {
 .icon {
     margin-top: 10px;
 }
+
+/* MEDIA */
+
+/* TABLET */
+@media screen and (max-width: 1024px) {
+    .container {
+        margin: 0 32px;
+    }
+
+    .header-container {
+        margin-bottom: 70px;
+    }
+
+    .nav-list {
+        gap: 28px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+
+    .hero-section {
+        min-height: auto;
+        padding-bottom: 80px;
+    }
+
+    .hero-section::before {
+        width: 800px;
+        height: 240px;
+        left: 80%;
+        bottom: 180px;
+    }
+
+    .hero-section::after {
+        width: 260px;
+        height: 260px;
+        right: 50px;
+        top: 10%;
+    }
+
+    .hero-h1 {
+        font-size: 58px;
+        width: 390px;
+    }
+
+    .hero-p {
+        font-size: 20px;
+        width: 430px;
+    }
+
+    .hero-actions {
+        margin-top: 55px;
+        gap: 16px;
+    }
+
+    .hero-actions-but1,
+    .hero-actions-but2 {
+        font-size: 20px;
+        padding: 20px 34px;
+        height: auto;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .about-articles {
+        margin-right: 0;
+    }
+
+    .about-p {
+        width: 100%;
+        max-width: 560px;
+    }
+
+    .about-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skill-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project-arrow-prev {
+        left: -20px;
+    }
+
+    .project-arrow-next {
+        right: -20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .footer-articles,
+    .footer-email {
+        margin-right: 0;
+    }
+
+    .footer-list {
+        padding-top: 0;
+        flex-wrap: wrap;
+    }
+
+    .footer-cards,
+    .footer-email {
+        margin-top: 30px;
+    }
+
+    .footer-tablet {
+        display: flex;
+        flex-direction: row;
+        gap: 30px
+    }
+}
+
+/* PHONE */
+@media screen and (max-width: 767px) {
+    .container {
+        margin: 0 20px;
+    }
+
+    section {
+        scroll-margin-top: 70px;
+    }
+
+    .header-container {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .navigation {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-list {
+        gap: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .hero-section {
+        min-height: auto;
+        padding-bottom: 70px;
+    }
+
+    .hero-section::before {
+        width: 420px;
+        height: 180px;
+        left: 80%;
+        bottom: 170px;
+        filter: blur(40px);
+    }
+
+    .hero-section::after {
+        width: 140px;
+        height: 140px;
+        right: 10px;
+        top: 40px;
+        opacity: 0.55;
+    }
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-h6 {
+        font-size: 22px;
+    }
+
+    .hero-h1 {
+        font-size: 42px;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .hero-p {
+        font-size: 17px;
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        margin-top: 60px;
+        gap: 14px;
+    }
+
+    .hero-actions-but1,
+    .hero-actions-but2 {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        padding: 18px 24px;
+    }
+
+    .hero-actions-but2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .about-section,
+    .skill-section,
+    .project-section {
+        margin-bottom: 60px;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-articles {
+        margin-right: 0;
+    }
+
+    .about-h6,
+    .skill-h6,
+    .project-h6,
+    .footer-h6 {
+        font-size: 18px;
+    }
+
+    .about-h2,
+    .skill-h2,
+    .project-h2,
+    .footer-h2 {
+        font-size: 26px;
+    }
+
+    .about-p,
+    .footer-p {
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .about-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-list-item {
+        width: 100%;
+        height: auto;
+        min-height: 260px;
+    }
+
+    .about-circle {
+        margin: 30px 0 20px 24px;
+    }
+
+    .about-item-p1 {
+        font-size: 24px;
+        margin: 20px 24px;
+    }
+
+    .about-item-p2 {
+        font-size: 17px;
+        margin: 0 24px 30px;
+    }
+
+    .skill-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .skill-list-item {
+        width: 100%;
+        height: 130px;
+    }
+
+    .skill-box-p {
+        font-size: 16px;
+    }
+
+    .project-list-item {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-img {
+        height: 190px;
+        object-fit: cover;
+    }
+
+    .project-box {
+        height: auto;
+        min-height: 150px;
+    }
+
+    .project-p1 {
+        font-size: 21px;
+    }
+
+    .project-p2 {
+        font-size: 14px;
+        margin: 0 16px 24px 20px;
+    }
+
+    .project-arrow-prev,
+    .project-arrow-next {
+        display: none;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        margin-bottom: 45px;
+    }
+
+    .footer-articles {
+        margin-right: 0;
+    }
+
+    .footer-email {
+        width: 300px;
+        height: 100px;
+        min-height: 90px;
+        margin: 30px 0 0;
+        align-items: center;
+    }
+
+    .email2 {
+        font-size: 16px;
+        word-break: break-word;
+    }
+
+    .footer-list {
+        padding-top: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-cards {
+        margin-top: 0;
+        display: flex;
+        align-items: left;
+    }
+
+    .footer-list-item {
+        width: 76px;
+        height: 78px;
+    }
+
+    .footer-tablet {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .icon {
+        width: 52px;
+        height: 52px;
+    }
+}

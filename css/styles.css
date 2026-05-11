@@ -195,8 +195,6 @@ body {
     padding: 26px 51px;
     color: #fff;
     transition: 0.3s ease;
-    width: 283px;
-    height: 90px;
 }
 
 .hero-actions-but1:hover {
@@ -694,6 +692,8 @@ body {
         font-size: 20px;
         padding: 20px 34px;
         height: auto;
+        width: 200px;
+        text-align: center;
     }
 
     .about-container {
@@ -740,7 +740,16 @@ body {
 
     .footer-list {
         padding-top: 0;
-        flex-wrap: wrap;
+    }
+
+    .footer-list-item {
+        width: 80px;
+        height: 80px;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
     }
 
     .footer-cards,
@@ -834,7 +843,7 @@ body {
 
     .hero-actions-but1,
     .hero-actions-but2 {
-        width: 100%;
+        width: 60%;
         height: auto;
         font-size: 18px;
         padding: 18px 24px;
